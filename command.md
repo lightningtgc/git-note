@@ -1,3 +1,15 @@
+```
+git pull
+
+git push
+
+git status
+
+gitfetch
+
+```
+
+
 ### 查看单个文件的修改历史
 
 ```
