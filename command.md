@@ -1,11 +1,14 @@
 ```
+// 配置git
+git config
+
 git pull
 
 git push
 
 git status
 
-gitfetch
+git fetch
 
 ```
 
