@@ -12,7 +12,6 @@ git fetch
 
 ```
 
-
 ### 查看单个文件的修改历史
 
 ```
@@ -35,3 +34,8 @@ git show 版本号
 git reset 版本号 文件路径/文件名
 ```
 之后再 git commit 和 git push
+
+### 如果还没有克隆现有仓库，想将仓库连接到某个远程服务器，可用：
+```
+git remote add origin <server>
+```
