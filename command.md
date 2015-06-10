@@ -39,3 +39,10 @@ git reset 版本号 文件路径/文件名
 ```
 git remote add origin <server>
 ```
+
+### 提交到远端仓库：
+```
+git push origin master
+```
+
+master可换成你想要的server名
