@@ -39,6 +39,10 @@ git reset 版本号 文件路径/文件名
 ```
 git remote add origin <server>
 ```
+### 查看当前Git 地址：
+```
+ git remote -v
+```
 
 ### 提交到远端仓库：
 ```
@@ -47,7 +51,4 @@ git push origin master
 
 master可换成你想要的server名
 
-### 查看当前Git 地址：
-```
- git remote -v
-```
+
