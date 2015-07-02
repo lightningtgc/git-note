@@ -1,9 +1,12 @@
 ```
 // 配置git
 git config
+```
 
 git pull
+相当于 git fetch + git merge; 
 
+```
 git push
 
 git status
