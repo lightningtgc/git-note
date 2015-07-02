@@ -46,3 +46,8 @@ git push origin master
 ```
 
 master可换成你想要的server名
+
+### 查看当前Git 地址：
+```
+ git remote -v
+```
