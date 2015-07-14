@@ -6,13 +6,25 @@ git config
 git pull
 相当于 git fetch + git merge; 
 
+### 提交代码
 ```
 git push
+```
+### 提交到远端仓库：
+```
+git push origin master
+```
 
+master可换成你想要的server名
+
+
+### 显示当前状态，包括当前所在分支，commit情况
+```
 git status
+```
 
+```
 git fetch
-
 ```
 
 ### 合并分支
@@ -57,11 +69,5 @@ git remote add origin <server>
  git remote -v
 ```
 
-### 提交到远端仓库：
-```
-git push origin master
-```
-
-master可换成你想要的server名
 
 
