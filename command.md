@@ -69,5 +69,12 @@ git remote add origin <server>
  git remote -v
 ```
 
+### 清除git上文件修改
+
+[git clean](http://git-scm.com/docs/git-clean)
+
+**-d** 清除未提交的文件夹与文件，一般结合f进行强制清除
+
+**-f** 强制清除
 
 
