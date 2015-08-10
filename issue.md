@@ -12,7 +12,9 @@ ls -al
 sudo chown -R yourname:yourgroup *
 ```
 
-### 配置全局ignore规则
+### Git配置全局ignore规则
+
+> 实现不自动提交
 
 首先到达根目录下进行操作
 ```
