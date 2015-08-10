@@ -16,7 +16,7 @@ sudo chown -R yourname:yourgroup *
 
 > 实现自动忽略相应文件
 
-首先写上你要忽略的文件，文件夹之类的规则
+首先写上要忽略的文件之类的规则
 ```
 cd ~
 vi .gitignore
