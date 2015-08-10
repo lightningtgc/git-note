@@ -12,3 +12,23 @@ ls -al
 sudo chown -R yourname:yourgroup *
 ```
 
+### 配置全局ignore规则
+
+首先到达根目录下进行操作
+```
+cd ~
+```
+写上你要忽略的文件，文件夹之类的规则
+```
+vi .gitignore
+```
+再与git全局配置文件进行匹配的关联
+```
+vi .gitconfig
+```
+打开.gitconfig输入:
+```
+[core]
+    excludesfile = ~/.gitignore
+```
+注意如有[core]一行，直接在其底下写excludesfile的规则即可
