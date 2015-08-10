@@ -33,4 +33,4 @@ vi .gitconfig
 [core]
     excludesfile = ~/.gitignore
 ```
-注： 如有`[core]`一行，直接在其底下写excludesfile的规则即可
+注： 如已有`[core]`，直接在其底下写excludesfile的规则即可
