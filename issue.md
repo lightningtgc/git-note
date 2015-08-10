@@ -1,6 +1,6 @@
 ### Git Pull Error: 
 
-** insufficient permission for adding an object to repository database .git/objects **
+**insufficient permission for adding an object to repository database .git/objects**
 
 解决方案：
 
