@@ -14,7 +14,7 @@ sudo chown -R yourname:yourgroup *
 
 ### Git配置全局ignore规则
 
-> 实现不自动提交
+> 实现自动忽略相应文件
 
 首先到达根目录下进行操作
 ```
