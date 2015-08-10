@@ -77,4 +77,8 @@ git remote add origin <server>
 
 **-f** 强制清除
 
+### 查看提交记录
+```
+git log
+```
 
