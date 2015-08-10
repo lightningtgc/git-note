@@ -28,7 +28,7 @@ vi .gitignore
 ```
 vi .gitconfig
 ```
-打开`.gitconfig`输入:
+最后打开`.gitconfig`输入:
 ```
 [core]
     excludesfile = ~/.gitignore
