@@ -4,11 +4,13 @@ git config
 ```
 
 ### 更新代码
+
+拉取远程库的代码到本地库
 ```
 git fetch
 ```
-拉取远程库的代码到本地库
 
+更新本地代码
 ```
 git pull
 ```
@@ -81,11 +83,17 @@ git remote add origin <server>
 
 [git clean](http://git-scm.com/docs/git-clean)
 
-**-d** 清除未提交的文件夹与文件，一般结合fi或i进行强制清除
+```
+git clean -df
+
+git clean -di
+```
+
+**-d** 清除未提交的文件夹与文件，一般结合f或i进行强制清除
 
 **-f** 强制清除
 
-**-i** 有选择交互性的操作
+**-i** 有交互性的选择操作
 
 ### 查看提交记录
 ```
