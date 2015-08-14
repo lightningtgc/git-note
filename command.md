@@ -73,9 +73,11 @@ git remote add origin <server>
 
 [git clean](http://git-scm.com/docs/git-clean)
 
-**-d** 清除未提交的文件夹与文件，一般结合f进行强制清除
+**-d** 清除未提交的文件夹与文件，一般结合fi或i进行强制清除
 
 **-f** 强制清除
+
+**-i** 有选择交互性的操作
 
 ### 查看提交记录
 ```
