@@ -11,9 +11,8 @@ git fetch
 
 ```
 git pull
-//相当于 git fetch + git merge; 
 ```
-
+git pull 相当于 git fetch + git merge
 
 ### 提交代码
 ```
