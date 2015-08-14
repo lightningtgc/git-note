@@ -5,6 +5,11 @@ git config
 
 ### 更新代码
 ```
+git fetch
+```
+拉取远程库的代码到本地库
+
+```
 git pull
 //相当于 git fetch + git merge; 
 ```
