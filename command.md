@@ -3,8 +3,12 @@
 git config
 ```
 
+### 更新代码
+```
 git pull
-相当于 git fetch + git merge; 
+//相当于 git fetch + git merge; 
+```
+
 
 ### 提交代码
 ```
