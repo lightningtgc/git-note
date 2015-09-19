@@ -26,6 +26,8 @@ git push origin master
 
 master可换成你想要的server名
 
+可直接配置
+> git config --global remote.origin.push refs/heads/*:refs/for/*
 
 ### 显示当前状态，包括当前所在分支，commit情况
 ```
