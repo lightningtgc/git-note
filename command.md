@@ -11,7 +11,7 @@ git config --global alias.st status
 git config --global alias.unstage 'reset HEAD --'
 ```
 
-另一种方式：
+直接在文件中写入git别名：
 ```
 1)
 vi ~/.gitconfig
