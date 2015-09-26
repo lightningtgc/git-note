@@ -11,12 +11,12 @@ git config --global alias.st status
 git config --global alias.unstage 'reset HEAD --'
 ```
 
-*另一种方式：*
+另一种方式：
 ```
 1)
-~/.gitconfig
+vi ~/.gitconfig
 
-2）写入:
+2）在文件中写入:
 [alias]
     st = status
     ci = commit
