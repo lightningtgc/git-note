@@ -2,6 +2,29 @@
 ```
 git config
 ```
+
+### Git 别名
+```
+git config --global alias.缩写 全名
+//Eg:
+git config --global alias.st status
+git config --global alias.unstage 'reset HEAD --'
+```
+
+*另一种方式：*
+```
+1)
+~/.gitconfig
+
+2）写入:
+[alias]
+    st = status
+    ci = commit
+    co = checkout
+    br = branch
+    unstage = reset HEAD --
+    last = log -1 HEAD
+```
 ### 更新代码
 
 拉取远程库的代码到本地库
