@@ -22,6 +22,7 @@ vi ~/.gitconfig
     ci = commit
     co = checkout
     br = branch
+    mg = merge
     unstage = reset HEAD --
     last = log -1 HEAD
 ```
