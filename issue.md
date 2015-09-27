@@ -12,6 +12,19 @@ ls -al
 sudo chown -R yourname:yourgroup *
 ```
 
+
+**fatal: recursion detected in die handler**
+
+问题原因：
+问题原因是http.postBuffer默认上限为1M所致。在git的配置里将http.postBuffer变量改大一些即可，比如将上限设为500M
+
+解决方案：
+
+```
+git config --global http.postBuffer 524288000
+```
+
+
 ### Git配置全局ignore规则
 
 > 实现自动忽略相应文件
