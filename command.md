@@ -76,6 +76,24 @@ git branch
 git branch -a
 ```
 
+### 删除分支
+
+删除本地分支
+```
+git branch -d 本地分支名
+```
+
+删除远程分支：
+
+v1.7.0以后
+```
+git push origin --delete <branchName>
+```
+
+删除远程tag
+```
+git push origin --delete tag <tagname>
+```
 
 ### 合并分支
 ```
