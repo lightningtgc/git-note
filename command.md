@@ -75,6 +75,16 @@ git branch
 ```
 git branch -a
 ```
+### 获取分支
+
+```
+git clone <branchURL>
+```
+
+获取远程tag
+```
+git fetch origin tag <tagName>
+```
 
 ### 删除分支
 
