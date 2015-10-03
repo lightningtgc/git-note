@@ -3,7 +3,7 @@
 git config
 ```
 
-### Git 别名
+#####  Git 别名
 ```
 git config --global alias.缩写 全名
 
