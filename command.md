@@ -7,7 +7,7 @@ git config
 ```
 git config --global alias.缩写 全名
 
-//Eg:
+//举例
 git config --global alias.st status
 git config --global alias.unstage 'reset HEAD --'
 ```
