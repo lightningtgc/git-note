@@ -1,10 +1,12 @@
-import {UnicornHorn} from "../animals/unicorn";
+angular.module('test', ['unicorn']).service('unicornHype', UnicornHype);
 class UnicornHype {
-    constructor(unicornHorn:UnicornHorn) {
+    constructor(unicornHorn, $q) {
+        'ngInject';    
         this.horn = unicornHorn;
+        this.$q = $q;
     }
     findUnicorn() {
-        return new Promise((resolve, reject) => {
+        return this.$q((resolve, reject) => {
             navigator.geolocation.getCurrentPosition((pos) => {
                 this.horn.thrust();
                 resolve(`The unicorn is at ${pos.coords.latitude}`);
@@ -12,3 +14,4 @@ class UnicornHype {
         });
     }
 }
+
