@@ -47,4 +47,3 @@ vi .gitconfig
     
 另外一些配置内容也可以直接在`.gitconfig`里面修改
 
-### access error
