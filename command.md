@@ -106,6 +106,15 @@ git push origin --delete <branchName>
 git push origin --delete tag <tagname>
 ```
 
+### 更新远程分支信息
+
+同步远程分支信息
+```
+git fetch -p
+```
+-p就是修剪的意思。它在fetch之后删除掉没有与远程分支对应的本地分支，并且同步一些远程新创建的分支和tag。
+
+
 ### 合并分支
 ```
 //--no-ff生成节点记录，防止丢失记录信息
