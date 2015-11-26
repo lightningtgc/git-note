@@ -34,6 +34,14 @@ git rm <file>           #直接删除文件
 git rm --cached <file>  #删除文件暂存状态
 ```
 
+### 储藏和恢复
+```
+git stash           #储藏当前工作
+git stash list      #查看储藏的工作现场
+git stash apply     #恢复工作现场，stash内容并不删除
+git stash pop       #恢复工作现场，并删除stash内容
+```
+
 ### 更新代码
 
 拉取远程库的代码到本地库
