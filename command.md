@@ -189,3 +189,11 @@ git reset --hard cb926e7  #回退到具体某个版
 git reflog                #查看命令历史,常用于帮助找回丢失掉的commit
 ```
 用HEAD表示当前版本，上一个版本就是HEAD^，上上一个版本就是HEAD^^，HEAD~100就是上100个版本。
+
+### 版本回退
+```
+git reset --hard HEAD^    #回退到上一个版本
+git reset --hard cb926e7  #回退到具体某个版
+git reflog                #查看命令历史,常用于帮助找回丢失掉的commit
+```
+用HEAD表示当前版本，上一个版本就是HEAD^，上上一个版本就是HEAD^^，HEAD~100就是上100个版本。
