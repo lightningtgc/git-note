@@ -173,8 +173,12 @@ git clean -di
 
 **-i** 有交互性的选择操作
 
-### 查看提交记录
+## 历史管理
+
+### 查看历史
 ```
-git log
+git log --pretty=oneline filename #一行显示
+git log -p -2      #显示最近2次提交内容的差异
+git show cb926e7   #查看某次修改
 ```
 
