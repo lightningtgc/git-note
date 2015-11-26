@@ -28,6 +28,12 @@ vi ~/.gitconfig
     last = log -1 HEAD
 ```
 
+### 增加文件
+```
+git add <file>  # 增加某个文件
+git add .       # 增加全部修改文件
+```
+
 ### 删除文件
 ```
 git rm <file>           #直接删除文件
