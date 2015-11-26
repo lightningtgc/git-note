@@ -27,6 +27,13 @@ vi ~/.gitconfig
     unstage = reset HEAD --
     last = log -1 HEAD
 ```
+
+### 删除文件
+```
+git rm <file>           #直接删除文件
+git rm --cached <file>  #删除文件暂存状态
+```
+
 ### 更新代码
 
 拉取远程库的代码到本地库
