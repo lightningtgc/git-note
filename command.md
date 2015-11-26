@@ -28,7 +28,7 @@ vi ~/.gitconfig
     last = log -1 HEAD
 ```
 
-### 增加文件
+### [增加文件 git-add](https://git-scm.com/docs/git-add)
 ```
 git add <file>  # 增加某个文件
 git add .       # 增加全部修改文件
