@@ -204,3 +204,12 @@ git status              #查看工作区、暂存区的状态
 git checkout -- <file>  #丢弃工作区上某个文件的修改
 git reset HEAD <file>   #丢弃暂存区上某个文件的修改，重新放回工作区
 ```
+
+### 查看差异
+```
+git diff              #查看未暂存的文件更新 
+git diff --cached     #查看已暂存文件的更新 
+git diff HEAD -- readme.txt  #查看工作区和版本库里面最新版本的区别
+git diff <source_branch> <target_branch>  #在合并改动之前，预览两个分支的差异
+```
+使用内建的图形化git：gitk，可以更方便清晰地查看差异。当然 Github 客户端也不错。
