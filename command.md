@@ -236,3 +236,9 @@ git diff <source_branch> <target_branch>  #在合并改动之前，预览两个�
 使用内建的图形化git：gitk，可以更方便清晰地查看差异。当然 Github 客户端也不错。
 
 ## 标签 - tag
+
+### 显示标签
+```
+git tag         #列出现有标签 
+git show <tagname>  #显示标签信息
+```
