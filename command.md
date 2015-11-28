@@ -234,3 +234,5 @@ git diff HEAD -- readme.txt  #查看工作区和版本库里面最新版本的�
 git diff <source_branch> <target_branch>  #在合并改动之前，预览两个分支的差异
 ```
 使用内建的图形化git：gitk，可以更方便清晰地查看差异。当然 Github 客户端也不错。
+
+## 标签 - tag
