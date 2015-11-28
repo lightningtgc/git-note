@@ -138,7 +138,7 @@ git fetch -p
 
 ### 合并分支
 ```
-//--no-ff生成节点记录，防止丢失记录信息
+//--no-ff 保留原节点记录，防止丢失节点记录信息
 // ff: fast-forward
 git merge --no-ff 分支名
 // rebase 不生成新的合并节点，节点呈线性
