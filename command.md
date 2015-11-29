@@ -1,9 +1,9 @@
-### Git配置 
+## Git配置 
 ```
 git config
 ```
 
-####  Git 别名
+###  Git 别名
 ```
 git config --global alias.缩写 全名
 
@@ -12,7 +12,7 @@ git config --global alias.st status
 git config --global alias.unstage 'reset HEAD --'
 ```
 
-##### 直接在文件中写入Git别名：
+#### 直接在文件中写入Git别名：
 ```
 1)
 vi ~/.gitconfig
@@ -27,6 +27,8 @@ vi ~/.gitconfig
     unstage = reset HEAD --
     last = log -1 HEAD
 ```
+
+## git文件操作
 
 ### [增加文件 git-add](https://git-scm.com/docs/git-add)
 ```
