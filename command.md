@@ -242,3 +242,9 @@ git diff <source_branch> <target_branch>  #在合并改动之前，预览两个�
 git tag         #列出现有标签 
 git show <tagname>  #显示标签信息
 ```
+### 创建标签
+```
+git tag v0.1    #新建标签，默认位 HEAD
+git tag v0.1 cb926e7  #对指定的 commit id 打标签
+git tag -a v0.1 -m 'version 0.1 released'   #新建带注释标签
+```
