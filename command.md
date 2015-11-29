@@ -3,7 +3,7 @@
 git config
 ```
 
-###  Git 别名
+###  配置Git 别名
 ```
 git config --global alias.缩写 全名
 
@@ -12,7 +12,7 @@ git config --global alias.st status
 git config --global alias.unstage 'reset HEAD --'
 ```
 
-#### 直接在文件中写入Git别名：
+*直接在文件中写入Git别名：*
 ```
 1)
 vi ~/.gitconfig
@@ -26,6 +26,13 @@ vi ~/.gitconfig
     mg = merge
     unstage = reset HEAD --
     last = log -1 HEAD
+```
+
+### 配置 commit 的用户和邮箱
+```
+git config user.name "xx"               #设置 commit 的用户
+git config user.email.com "xx@xx.com"   #设置 commit 的邮箱
+git config format.pretty oneline        #显示历史记录时，每个提交的信息只显示一行
 ```
 
 ## git文件操作
