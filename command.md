@@ -257,3 +257,14 @@ git tag v0.1    #新建标签，默认位 HEAD
 git tag v0.1 cb926e7  #对指定的 commit id 打标签
 git tag -a v0.1 -m 'version 0.1 released'   #新建带注释标签
 ```
+
+###操作标签
+```
+git checkout <tagname>        #切换到标签
+
+git push origin <tagname>     #推送分支到源上
+git push origin --tags        #一次性推送全部尚未推送到远程的本地标签
+
+git tag -d <tagname>          #删除标签
+git push origin :refs/tags/<tagname>      #删除远程标签
+```
