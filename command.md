@@ -1,5 +1,7 @@
 # Git 命令大全
 
+讲解常用Git命令与注解
+
 ## Git配置 
 ```
 git config
