@@ -2,7 +2,7 @@
 
 讲解常用Git命令与注解
 
-## Git配置 
+## Git配置命令
 ```
 git config
 ```
