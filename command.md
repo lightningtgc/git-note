@@ -7,7 +7,7 @@
 git config
 ```
 
-###  配置Git 别名
+###  Git配置别名
 ```
 git config --global alias.缩写 全名
 
