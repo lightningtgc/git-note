@@ -284,3 +284,10 @@ git checkout -
 
 注：cd命令有个类似的缩写*cd -*
 
+### Blame
+
+```
+git blame -w  # 忽略移除空白这类改动
+git blame -M  # 忽略移动文本内容这类改动
+git blame -C  # 忽略移动文本内容到其它文件这类改动
+```
