@@ -97,6 +97,9 @@ git status
 git fetch
 ```
 
+## 纠错
+
+
 ## 分支相关
 
 ### 查看分支
