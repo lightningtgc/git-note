@@ -99,6 +99,12 @@ git fetch
 
 ## 纠错
 
+### Blame
+
+```
+git blame
+```
+针对某个文件blame
 
 ## 分支相关
 
