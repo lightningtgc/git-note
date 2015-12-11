@@ -304,7 +304,7 @@ git blame -C  # 忽略移动文本内容到其它文件这类改动
 ### 子模块 vs 子树
 
 
-### big-picture
+### Big Picture
 
 git-big-picture可以将git仓库的分支和标签之间的衍生关系以图片的形式展示出来，对于直观上了解代码的历史很有帮助。
 ```
