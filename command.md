@@ -310,3 +310,8 @@ git-big-picture可以将git仓库的分支和标签之间的衍生关系以图�
 ```
 git big-picture -o pic.png
 ```
+
+默认显示所有的分支，标签和首次提交，所以看上去很乱，可以通过如下选项只显示标签之间的关系（部分）
+```
+git big-picture --no-branches --no-roots -o pic.png
+```
