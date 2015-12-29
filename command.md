@@ -241,7 +241,7 @@ git reflog                #查看命令历史,常用于帮助找回丢失掉的c
 ```
 用HEAD表示当前版本，上一个版本就是HEAD^，上上一个版本就是HEAD^^，HEAD~100就是上100个版本。
 
-###管理修改
+### 管理修改
 ```
 git status              #查看工作区、暂存区的状态
 git checkout -- <file>  #丢弃工作区上某个文件的修改
@@ -271,7 +271,7 @@ git tag v0.1 cb926e7  #对指定的 commit id 打标签
 git tag -a v0.1 -m 'version 0.1 released'   #新建带注释标签
 ```
 
-###操作标签
+### 操作标签
 ```
 git checkout <tagname>        #切换到标签
 
