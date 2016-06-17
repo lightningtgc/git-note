@@ -248,6 +248,8 @@ git checkout -- <file>  #丢弃工作区上某个文件的修改
 git reset HEAD <file>   #丢弃暂存区上某个文件的修改，重新放回工作区
 ```
 
+注： `git checkout`可加上文件或文件夹，使其还原到最近状态。
+
 ### 查看差异
 ```
 git diff              #查看未暂存的文件更新 
